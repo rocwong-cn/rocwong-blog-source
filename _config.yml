@@ -8,7 +8,7 @@ subtitle:
 description:
 keywords:
 author: RocWong
-language:
+language: zh-Hans
 timezone:
 
 # URL
@@ -22,10 +22,10 @@ permalink_defaults:
 menu:
   - name: 主页
     icon: fas fa-home
-    url: http://www.rocwong.cn/
-  - name: 博客
-    icon: fas fa-heartbeat
     url: /
+  # - name: 博客
+  #   icon: fas fa-heartbeat
+  #   url: /
   - name: 归档
     icon: fas fa-archive
     url: archives/
