@@ -5,8 +5,8 @@
 # Site
 title: RocWong's Blog
 subtitle:
-description:
-keywords:
+description: 
+keywords: 前端;移动端;技术分享;算法;总结;
 author: RocWong
 language: zh-CN
 timezone:
@@ -23,12 +23,18 @@ menu:
   - name: 主页
     icon: fas fa-home
     url: /
-  # - name: 博客
-  #   icon: fas fa-heartbeat
-  #   url: /
+  - name: 项目
+    icon: fas fa-gavel
+    url: project/
   - name: 归档
     icon: fas fa-archive
     url: archives/
+  - name: 朋友
+    icon: fas fa-users
+    url: friends/
+  - name: 关于
+    icon: fas fa-user
+    url: about/
 
 # 页脚社交信息
 social:
@@ -40,10 +46,13 @@ social:
     url: https://music.163.com/#/user/home?id=64405940
 
 widgets:
+  - widget: author
+    avatar: https://cdn.jsdelivr.net/gh/rocwangv/assets/avatar/avatar.png
+    jinrishici: true
+    social: true
   - widget: tagcloud
   - widget: category
   - widget: toc
-  - widget: author
 
   # Directory
 source_dir: source
@@ -84,8 +93,6 @@ index_generator:
 default_category: uncategorized
 # category_map中的key展示在页面中， 但是 value会出现在url中
 category_map:
-  默认分类: default
-  技术相关: tech
 tag_map:
 
 # Date / Time format
