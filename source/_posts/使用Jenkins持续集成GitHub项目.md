@@ -108,7 +108,7 @@ API URL 输入 `https://api.github.com`，Credentials点击Add添加，Kind选�
 设置完成后，点击`TestConnection`,提示`Credentials
  verified for user UUserName, rate limit: xxx`,则表明有效。
 
-### 创建一个freestyle任务
+## 5.创建一个freestyle任务
 
 \- General 设置
 填写GitHub project URL, 也就是你的项目主页
@@ -184,7 +184,7 @@ hexo d
 向GitHub repo提交一次`push`操作后，就会自动触发自动构建、远程部署的钩子，我们的博客系统就会自动集成新的内容了。
 
 
-## 6.参考：
+## 7.参考：
 
 > [Jenkins+Github持续集成](http://www.jianshu.com/p/b2ed4d23a3a9)
 > [Jenkins入门总结](http://www.cnblogs.com/itech/archive/2011/11/23/2260009.html)
