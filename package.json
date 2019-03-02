@@ -2,7 +2,9 @@
   "name": "hexo-site",
   "version": "0.0.0",
   "private": true,
-  "scripts": {},
+  "scripts": {
+    "pub": "hexo g & hexo d & git add . & git cam 'feat: new post' & git push"
+  },
   "hexo": {
     "version": "3.8.0"
   },

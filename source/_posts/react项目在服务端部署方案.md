@@ -2,9 +2,9 @@
 title: react项目在服务端部署方案
 date: 2017-08-11 13:58:23
 tags:
-- 服务端部署
+- react
 categories:
-- React
+- 项目部署
 ---
 
 ## 一、环境搭建

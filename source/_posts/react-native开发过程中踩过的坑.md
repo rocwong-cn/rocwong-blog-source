@@ -2,9 +2,9 @@
 title: react-native开发过程中踩过的坑
 date: 2017-08-07 09:50:23
 tags:
-- 踩坑之旅
-categories:
 - React-Native
+categories:
+- 移动端开发
 ---
 # 0、Could not install the app on the device, read the error above for details.
 

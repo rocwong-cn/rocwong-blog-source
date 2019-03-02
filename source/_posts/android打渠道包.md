@@ -2,9 +2,9 @@
 title: android打渠道包
 date: 2016-12-10 20:35:03
 tags:
-- 
-categories:
 - android
+categories:
+- 移动端开发
 ---
 
 首先需要在android/app/build.gradle裡面添加一下命令：

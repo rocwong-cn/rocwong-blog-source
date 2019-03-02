@@ -2,9 +2,9 @@
 title: 深入理解__proto__和prototype
 date: 2018-05-10 20:20:21
 tags:
-- 学习笔记
+- 原型链
 categories:
-- JS
+- 基础原理
 ---
 
 最近在收集面试题的时候发现了一些考查prototype的题目，然而很多都是一知半解的看完了，今天就深入理解一下prototype和\__proto\__ 。

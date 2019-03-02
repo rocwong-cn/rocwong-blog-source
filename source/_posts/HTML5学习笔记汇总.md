@@ -2,9 +2,9 @@
 title: HTML5学习笔记汇总
 date: 2018-05-21 20:56:20
 tags:
-- 学习笔记
-categories:
 - HTML5
+categories:
+- 学习笔记
 ---
 
 # lesson 1 总结
