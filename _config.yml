@@ -5,7 +5,7 @@
 # Site
 title: RocWong's Blog
 subtitle:
-description: 
+description:
 keywords: 前端;移动端;技术分享;算法;总结;
 author: RocWong
 language: zh-CN
@@ -53,6 +53,18 @@ widgets:
   - widget: tagcloud
   - widget: category
   - widget: toc
+
+valine:
+  enable: true # 如果你想用Valine评论系统，请设置enable为true
+  app_id: gYp5OOFzzylucF3XlyJk6T5a-gzGzoHsz # 必填
+  app_key: fzh2pJLE0OYsBEt718W40wfB # 必填
+  guest_info: nick,mail,link #valine comment header info
+  placeholder: 快来评论吧~ # valine comment input placeholder(like: Please leave your footprints )
+  avatar: monsterid # gravatar style https://valine.js.org/avatar
+  pageSize: 10 # comment list page size
+  verify: false # valine verify code (true/false)
+  notify: false # valine mail notify (true/false)
+  lang: zh-cn
 
   # Directory
 source_dir: source
