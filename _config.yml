@@ -6,7 +6,7 @@
 title: RocWong's Blog
 subtitle:
 description:
-keywords: 前端;移动端;技术分享;算法;总结;
+keywords: 前端,移动端,技术分享,算法,总结,react-native,RocWong,rocwong,rocwangv,王鹏的博客,rocwong's blog,rocwang,flutter,linux
 author: RocWong
 language: zh-CN
 timezone:
@@ -48,7 +48,7 @@ social:
 widgets:
   - widget: author
     avatar: https://cdn.jsdelivr.net/gh/rocwangv/assets/avatar/avatar.png
-    jinrishici: true
+    jinrishici: false
     social: true
   - widget: tagcloud
   - widget: category
@@ -66,7 +66,7 @@ valine:
   notify: false # valine mail notify (true/false)
   lang: zh-cn
 
-  # Directory
+# Directory
 source_dir: source
 public_dir: public
 tag_dir: tags
@@ -123,6 +123,12 @@ pagination_dir: page
 ## Plugins: https://hexo.io/plugins/
 ## Themes: https://hexo.io/themes/
 theme: material-x
+theme_cdn: true
+
+sitemap:
+    path: sitemap.xml
+baidusitemap:
+    path: baidusitemap.xml
 
 # Deployment
 ## Docs: https://hexo.io/docs/deployment.html

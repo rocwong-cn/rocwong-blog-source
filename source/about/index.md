@@ -16,7 +16,5 @@ type: "about"
 > .net --> java --> javascript --> architect（架构师）
 > 我可是要成为全栈王的男人；
 
-> 别看了，你这个死贱人！
-
 
  （over）

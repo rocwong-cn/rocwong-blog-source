@@ -1,0 +1,11 @@
+User-agent: *
+Allow: /
+Allow: /archives/
+Allow: /categories/
+Allow: /tags/
+Disallow: /project/
+Disallow: /friends/
+Disallow: /about/
+
+Sitemap: http://www.rocwong.cn/sitemap.xml
+Sitemap: http://www.rocwong.cn/baidusitemap.xml
