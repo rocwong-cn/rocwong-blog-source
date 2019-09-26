@@ -50,9 +50,9 @@ widgets:
     avatar: https://cdn.jsdelivr.net/gh/rocwangv/assets/avatar/avatar.png
     jinrishici: false
     social: true
+  - widget: toc
   - widget: tagcloud
   - widget: category
-  - widget: toc
 
 valine:
   enable: true # 如果你想用Valine评论系统，请设置enable为true
