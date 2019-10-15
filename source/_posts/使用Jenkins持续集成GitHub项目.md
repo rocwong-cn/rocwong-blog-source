@@ -45,23 +45,23 @@ $ sudo service jenkins restart
 
 经过上面的配置，你可以访问你的Jenkins了，在浏览器中输入：`http://your server ip:8080/`，效果如下：
 
-![img](http://upload-images.jianshu.io/upload_images/2518611-d93724fadf9ab855.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+![img](https://cdn.jsdelivr.net/gh/rocwangv/assets/jenkins/1.png)
 
 按照提示我们执行`cat /var/lib/jenkins/secrets/initialAdminPassword`得到`Administrator password`，输入后点击Continue，如下：
 
-![img](http://upload-images.jianshu.io/upload_images/2518611-47a485249b5741b3.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+![img](https://cdn.jsdelivr.net/gh/rocwangv/assets/jenkins/2.png)
 
 选择`install suggested plugins`，等待安装完毕，如果有安装失败的可以跳过，之后可以手动根据需求安装。
 
-![img](http://upload-images.jianshu.io/upload_images/2518611-72114d3f8f7a42c9.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+![img](https://cdn.jsdelivr.net/gh/rocwangv/assets/jenkins/3.png)
 
 ### 设置初始账户和密码
 
-![img](http://upload-images.jianshu.io/upload_images/2518611-7e1e1d4a0317292e.jpg?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+![img](https://cdn.jsdelivr.net/gh/rocwangv/assets/jenkins/4.png)
 
 设置完成后进入界面：
 
-![img](http://upload-images.jianshu.io/upload_images/2518611-6a2a1d6ab190eca4.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+![img](https://cdn.jsdelivr.net/gh/rocwangv/assets/jenkins/5.png)
 
 ## 3.github配置
 
@@ -71,9 +71,9 @@ $ sudo service jenkins restart
 
 > 进入github --> setting --> Personal Access Token --> Generate new token
 
-![img](http://upload-images.jianshu.io/upload_images/2518611-6c844d8a6bb58800.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+![img](https://cdn.jsdelivr.net/gh/rocwangv/assets/jenkins/6.png)
 
-![img](http://upload-images.jianshu.io/upload_images/436630-943711ff2a74919d.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+![img](https://cdn.jsdelivr.net/gh/rocwangv/assets/jenkins/7.png)
 
 自己先保存此`token`，如果丢失，之后再也无法找到这个`token`。
 
@@ -81,7 +81,7 @@ $ sudo service jenkins restart
 
 > 进入GitHub上指定的项目 --> setting --> WebHooks&Services --> add webhook --> 输入刚刚部署jenkins的服务器的IP
 
-![img](http://upload-images.jianshu.io/upload_images/436630-1dbb649d8ae063b3.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+![img](https://cdn.jsdelivr.net/gh/rocwangv/assets/jenkins/8.png)
 
 ## 4.jenkins的github配置
 
@@ -91,7 +91,7 @@ $ sudo service jenkins restart
 
 直接安装Github Plugin, jenkins会自动帮你解决其他插件的依赖，直接安装该插件Jenkins会自动帮你安装plain-credentials 、[Git](http://lib.csdn.net/base/git) 、 credentials 、 github-api
 
-![img](http://upload-images.jianshu.io/upload_images/436630-ff8c8744ed7ade0d.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+![img](https://cdn.jsdelivr.net/gh/rocwangv/assets/jenkins/9.png)
 
 ### 配置GitHub Plugin
 
@@ -99,11 +99,11 @@ $ sudo service jenkins restart
 
 如下图所示
 
-![img](http://upload-images.jianshu.io/upload_images/2518611-df2c88b65c841fa6.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+![img](https://cdn.jsdelivr.net/gh/rocwangv/assets/jenkins/10.png)
 
 API URL 输入 `https://api.github.com`，Credentials点击Add添加，Kind选择Secret Text,具体如下图所示。
 
-![img](http://upload-images.jianshu.io/upload_images/2518611-547c6e295e263296.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+![img](https://cdn.jsdelivr.net/gh/rocwangv/assets/jenkins/11.png)
 
 设置完成后，点击`TestConnection`,提示`Credentials
  verified for user UUserName, rate limit: xxx`,则表明有效。
@@ -126,7 +126,7 @@ eg. `https://github.com/your_name/your_repo_name`
 
 \- 构建触发器，构建环境
 
-![img](http://upload-images.jianshu.io/upload_images/2518611-9906f0e72e95a468.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+![img](https://cdn.jsdelivr.net/gh/rocwangv/assets/jenkins/12.png)
 
 ## 6.实现自动化部署
 
