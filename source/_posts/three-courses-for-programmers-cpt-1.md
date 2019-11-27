@@ -56,7 +56,7 @@ date: 2019-10-21 11:19:51
 
 ## 程序员工作法则
 
-> YAGNI : You Ain't Gonna Need it, 你不会需要它。 意思是： 如果必要，别增加复杂度。
+> YAGNI : You Ain't Gonna Need it, 你不会需要它。 意思是： 如果不必要，别增加复杂度。
 
 * 工具化法则
 * 自动化法则
