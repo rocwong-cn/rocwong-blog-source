@@ -4,7 +4,7 @@ tags:
   - canvas
 categories:
   - fabricjs
-date: 2019-08-13 11:02:03
+date: 2019-09-13 11:02:03
 ---
 
 ## 状况分析：
