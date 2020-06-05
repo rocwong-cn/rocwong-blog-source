@@ -45,23 +45,23 @@ $ sudo service jenkins restart
 
 经过上面的配置，你可以访问你的Jenkins了，在浏览器中输入：`http://your server ip:8080/`，效果如下：
 
-![img](https://cdn.jsdelivr.net/gh/rocwangv/assets/jenkins/1.png)
+![img](https://cdn.jsdelivr.net/gh/rocwong-cn/assets/jenkins/1.png)
 
 按照提示我们执行`cat /var/lib/jenkins/secrets/initialAdminPassword`得到`Administrator password`，输入后点击Continue，如下：
 
-![img](https://cdn.jsdelivr.net/gh/rocwangv/assets/jenkins/2.png)
+![img](https://cdn.jsdelivr.net/gh/rocwong-cn/assets/jenkins/2.png)
 
 选择`install suggested plugins`，等待安装完毕，如果有安装失败的可以跳过，之后可以手动根据需求安装。
 
-![img](https://cdn.jsdelivr.net/gh/rocwangv/assets/jenkins/3.png)
+![img](https://cdn.jsdelivr.net/gh/rocwong-cn/assets/jenkins/3.png)
 
 ### 设置初始账户和密码
 
-![img](https://cdn.jsdelivr.net/gh/rocwangv/assets/jenkins/4.png)
+![img](https://cdn.jsdelivr.net/gh/rocwong-cn/assets/jenkins/4.png)
 
 设置完成后进入界面：
 
-![img](https://cdn.jsdelivr.net/gh/rocwangv/assets/jenkins/5.png)
+![img](https://cdn.jsdelivr.net/gh/rocwong-cn/assets/jenkins/5.png)
 
 ## 3.github配置
 
@@ -71,9 +71,9 @@ $ sudo service jenkins restart
 
 > 进入github --> setting --> Personal Access Token --> Generate new token
 
-![img](https://cdn.jsdelivr.net/gh/rocwangv/assets/jenkins/6.png)
+![img](https://cdn.jsdelivr.net/gh/rocwong-cn/assets/jenkins/6.png)
 
-![img](https://cdn.jsdelivr.net/gh/rocwangv/assets/jenkins/7.png)
+![img](https://cdn.jsdelivr.net/gh/rocwong-cn/assets/jenkins/7.png)
 
 自己先保存此`token`，如果丢失，之后再也无法找到这个`token`。
 
@@ -81,7 +81,7 @@ $ sudo service jenkins restart
 
 > 进入GitHub上指定的项目 --> setting --> WebHooks&Services --> add webhook --> 输入刚刚部署jenkins的服务器的IP
 
-![img](https://cdn.jsdelivr.net/gh/rocwangv/assets/jenkins/8.png)
+![img](https://cdn.jsdelivr.net/gh/rocwong-cn/assets/jenkins/8.png)
 
 ## 4.jenkins的github配置
 
@@ -91,7 +91,7 @@ $ sudo service jenkins restart
 
 直接安装Github Plugin, jenkins会自动帮你解决其他插件的依赖，直接安装该插件Jenkins会自动帮你安装plain-credentials 、[Git](http://lib.csdn.net/base/git) 、 credentials 、 github-api
 
-![img](https://cdn.jsdelivr.net/gh/rocwangv/assets/jenkins/9.png)
+![img](https://cdn.jsdelivr.net/gh/rocwong-cn/assets/jenkins/9.png)
 
 ### 配置GitHub Plugin
 
@@ -99,11 +99,11 @@ $ sudo service jenkins restart
 
 如下图所示
 
-![img](https://cdn.jsdelivr.net/gh/rocwangv/assets/jenkins/10.png)
+![img](https://cdn.jsdelivr.net/gh/rocwong-cn/assets/jenkins/10.png)
 
 API URL 输入 `https://api.github.com`，Credentials点击Add添加，Kind选择Secret Text,具体如下图所示。
 
-![img](https://cdn.jsdelivr.net/gh/rocwangv/assets/jenkins/11.png)
+![img](https://cdn.jsdelivr.net/gh/rocwong-cn/assets/jenkins/11.png)
 
 设置完成后，点击`TestConnection`,提示`Credentials
  verified for user UUserName, rate limit: xxx`,则表明有效。
@@ -114,11 +114,11 @@ API URL 输入 `https://api.github.com`，Credentials点击Add添加，Kind选�
 填写GitHub project URL, 也就是你的项目主页
 eg. `https://github.com/your_name/your_repo_name`
 
-![img](https://cdn.jsdelivr.net/gh/rocwangv/assets/jenkins/Jenkins-ghrepo-info.png)
+![img](https://cdn.jsdelivr.net/gh/rocwong-cn/assets/jenkins/Jenkins-ghrepo-info.png)
 
 \- 配置源码管理
 
-![img](https://cdn.jsdelivr.net/gh/rocwangv/assets/jenkins/Jenkins-source-manage.png)
+![img](https://cdn.jsdelivr.net/gh/rocwong-cn/assets/jenkins/Jenkins-source-manage.png)
 
 1. 填写项目的git地址, eg. `https://github.com/your_name/your_repo_name.git`
 2. 添加github用户和密码
@@ -126,7 +126,7 @@ eg. `https://github.com/your_name/your_repo_name`
 
 \- 构建触发器，构建环境
 
-![img](https://cdn.jsdelivr.net/gh/rocwangv/assets/jenkins/12.png)
+![img](https://cdn.jsdelivr.net/gh/rocwong-cn/assets/jenkins/12.png)
 
 ## 6.实现自动化部署
 
@@ -156,13 +156,13 @@ Timeout (ms)：超时时间（毫秒）默认300000
 ```
 
 效果图：
-![img](https://cdn.jsdelivr.net/gh/rocwangv/assets/jenkins/Jenkins-overssh.png)
+![img](https://cdn.jsdelivr.net/gh/rocwong-cn/assets/jenkins/Jenkins-overssh.png)
 
 配置完成后，点击Test Configuration测试一下是否可以连接上，如果成功会返回success，失败会返回报错信息，根据报错信息改正即可。
 
 1. 接下来进入我们创建的任务，点击**构建**，增加一些脚本代码，意思是将我hexo博客生成的静态资源打包成一个文件，因为我们要传输。
 
-![img](https://cdn.jsdelivr.net/gh/rocwangv/assets/jenkins/Jenkins-building.png)
+![img](https://cdn.jsdelivr.net/gh/rocwong-cn/assets/jenkins/Jenkins-building.png)
 
 5. 点击**构建后操作**，增加构建后操作步骤，选择send build artificial over SSH， 参数说明：
 
@@ -173,7 +173,7 @@ Remove prefix ：要去掉的前缀，不写远程服务器的目录结构将和
 Remote directory ：写你要部署在远程服务器的那个目录地址下，不写就是SSH Servers配置里默认远程目录
 Exec command ：传输完了要执行的命令，我这里执行了解压缩和解压缩完成后删除压缩包2个命令
 ```
-![img](https://cdn.jsdelivr.net/gh/rocwangv/assets/jenkins/Jenkins-after-build.png)
+![img](https://cdn.jsdelivr.net/gh/rocwong-cn/assets/jenkins/Jenkins-after-build.png)
 
 6. 现在在我们本地的`hexo`博客系统里面随便修改点东西，然后执行以下：
 

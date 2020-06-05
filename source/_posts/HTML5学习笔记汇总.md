@@ -8,7 +8,7 @@ categories:
 ---
 
 # lesson 1 总结
-[预览地址](http://htmlpreview.github.io/?https://github.com/rocwangv/html5-learning/blob/master/lesson1/index.html)
+[预览地址](http://htmlpreview.github.io/?https://github.com/rocwong-cn/html5-learning/blob/master/lesson1/index.html)
 ## 设置背景图片：
 
 ```css
@@ -72,7 +72,7 @@ function onclick(e){
 ```
 
 # lesson 2 总结
-[预览地址](http://htmlpreview.github.io/?https://github.com/rocwangv/html5-learning/blob/master/lesson2/index.html)
+[预览地址](http://htmlpreview.github.io/?https://github.com/rocwong-cn/html5-learning/blob/master/lesson2/index.html)
 
 ## manifest（离线缓存）
 
@@ -153,7 +153,7 @@ index.css
 `content`还有email=no等取值
 
 # lesson 3 总结
-[DEMO预览地址](http://htmlpreview.github.io/?https://github.com/rocwangv/html5-learning/blob/master/lesson3/index.html)
+[DEMO预览地址](http://htmlpreview.github.io/?https://github.com/rocwong-cn/html5-learning/blob/master/lesson3/index.html)
 
 ## line-height（行高）
 
@@ -206,7 +206,7 @@ box-shadow:x y deg speed color inset/outset;
 
 
 # lesson 4 总结
-[DEMO预览地址](http://htmlpreview.github.io/?https://github.com/rocwangv/html5-learning/blob/master/lesson4/index.html)
+[DEMO预览地址](http://htmlpreview.github.io/?https://github.com/rocwong-cn/html5-learning/blob/master/lesson4/index.html)
 
 > 终于迎来了我喜欢的 javascript 环节了呢，嘻嘻~
 
@@ -286,7 +286,7 @@ jQuery.Event.prototype = {
 参考网址：[Event.cancelBubble - Web APIs | MDN](https://developer.mozilla.org/en-US/docs/Web/API/Event/cancelBubble)
 
 # lesson 5 总结
-[DEMO预览地址](http://htmlpreview.github.io/?https://github.com/rocwangv/html5-learning/blob/master/lesson5/index.html)
+[DEMO预览地址](http://htmlpreview.github.io/?https://github.com/rocwong-cn/html5-learning/blob/master/lesson5/index.html)
 
 ## viewport
 
@@ -433,9 +433,9 @@ window.orientation || screen.orientation
 
 > 本节课主要学习是布局相关知识。
 
-[两列均分布局](http://htmlpreview.github.io/?https://github.com/rocwangv/html5-learning/blob/master/lesson6/index.html)
-| [格子布局](http://htmlpreview.github.io/?https://github.com/rocwangv/html5-learning/blob/master/lesson6/grid.html)
-| [格子布局 - 跨行](http://htmlpreview.github.io/?https://github.com/rocwangv/html5-learning/blob/master/lesson6/grid1.html)
+[两列均分布局](http://htmlpreview.github.io/?https://github.com/rocwong-cn/html5-learning/blob/master/lesson6/index.html)
+| [格子布局](http://htmlpreview.github.io/?https://github.com/rocwong-cn/html5-learning/blob/master/lesson6/grid.html)
+| [格子布局 - 跨行](http://htmlpreview.github.io/?https://github.com/rocwong-cn/html5-learning/blob/master/lesson6/grid1.html)
 
 
 ## 清除浮动
@@ -468,7 +468,7 @@ section::after{
 此外，在`BFC`中，块级元素与由行内元素组成的"行盒子"会垂直的沿其父元素的边框排列。触发`BFC`的因素很多，如上述设置`display`为`table`即为其中的一种因素（也可以设置`display`为`inline-block`、`table-cell`、`table-caption`、`flex`、`inline-flex`等）。
 而且，`overflow`不为`visible`也会触发`BFC`。
 
-[overflow触发BFC的Demo](http://htmlpreview.github.io/?https://github.com/rocwangv/html5-learning/blob/master/lesson6/bfc.html)
+[overflow触发BFC的Demo](http://htmlpreview.github.io/?https://github.com/rocwong-cn/html5-learning/blob/master/lesson6/bfc.html)
 
 ## box-shadow 设置框线
 
@@ -488,10 +488,10 @@ box-shadow:0 0 1px rgba(0,0,0,.4) inset;
 * 为了防止高度"坍塌"，清除父元素浮动。
 
 # lesson 7 总结
-[两列自适应布局](http://htmlpreview.github.io/?https://github.com/rocwangv/html5-learning/blob/master/lesson7/index.html)
- | [三列自适应布局（圣杯布局）](http://htmlpreview.github.io/?https://github.com/rocwangv/html5-learning/blob/master/lesson7/three-col.html)
- | [三列自适应布局（淘宝UED - 双飞翼布局）](http://htmlpreview.github.io/?https://github.com/rocwangv/html5-learning/blob/master/lesson7/two-wings.html)
- | [瀑布流布局）](http://htmlpreview.github.io/?https://github.com/rocwangv/html5-learning/blob/master/lesson7/waterfall.html)
+[两列自适应布局](http://htmlpreview.github.io/?https://github.com/rocwong-cn/html5-learning/blob/master/lesson7/index.html)
+ | [三列自适应布局（圣杯布局）](http://htmlpreview.github.io/?https://github.com/rocwong-cn/html5-learning/blob/master/lesson7/three-col.html)
+ | [三列自适应布局（淘宝UED - 双飞翼布局）](http://htmlpreview.github.io/?https://github.com/rocwong-cn/html5-learning/blob/master/lesson7/two-wings.html)
+ | [瀑布流布局）](http://htmlpreview.github.io/?https://github.com/rocwong-cn/html5-learning/blob/master/lesson7/waterfall.html)
 
 
 本节课主要学习了高阶布局相关的知识，并深入理解了`relative`（相对布局）和`absolute`（绝对布局）
@@ -500,10 +500,10 @@ box-shadow:0 0 1px rgba(0,0,0,.4) inset;
 
 
 # lesson 8 总结
-[transition demo](http://htmlpreview.github.io/?https://github.com/rocwangv/html5-learning/blob/master/lesson8/index.html)
- | [animation demo1 - 会旋转的图标](http://htmlpreview.github.io/?https://github.com/rocwangv/html5-learning/blob/master/lesson8/animation.html)
- | [animation demo2 - 会移动的一排图标](http://htmlpreview.github.io/?https://github.com/rocwangv/html5-learning/blob/master/lesson8/animation2.html)
- | [animation demo3 - cubic bezier](http://htmlpreview.github.io/?https://github.com/rocwangv/html5-learning/blob/master/lesson8/animation3.html)
+[transition demo](http://htmlpreview.github.io/?https://github.com/rocwong-cn/html5-learning/blob/master/lesson8/index.html)
+ | [animation demo1 - 会旋转的图标](http://htmlpreview.github.io/?https://github.com/rocwong-cn/html5-learning/blob/master/lesson8/animation.html)
+ | [animation demo2 - 会移动的一排图标](http://htmlpreview.github.io/?https://github.com/rocwong-cn/html5-learning/blob/master/lesson8/animation2.html)
+ | [animation demo3 - cubic bezier](http://htmlpreview.github.io/?https://github.com/rocwong-cn/html5-learning/blob/master/lesson8/animation3.html)
 
 > 动画与特效
 
@@ -602,22 +602,22 @@ animation-fill-mode : none | forwards | backwards | both;
 
 * 页面切换动效
 
-[横向平移特效](http://htmlpreview.github.io/?https://github.com/rocwangv/html5-learning/blob/master/lesson9/index.html)
- | [纵向平移特效](http://htmlpreview.github.io/?https://github.com/rocwangv/html5-learning/blob/master/lesson9/index2.html)
- | [缩小放大特效](http://htmlpreview.github.io/?https://github.com/rocwangv/html5-learning/blob/master/lesson9/index3.html)
- | [水平翻转特效](http://htmlpreview.github.io/?https://github.com/rocwangv/html5-learning/blob/master/lesson9/index4.html)
- | [翻转加缩放](http://htmlpreview.github.io/?https://github.com/rocwangv/html5-learning/blob/master/lesson9/index5.html)
+[横向平移特效](http://htmlpreview.github.io/?https://github.com/rocwong-cn/html5-learning/blob/master/lesson9/index.html)
+ | [纵向平移特效](http://htmlpreview.github.io/?https://github.com/rocwong-cn/html5-learning/blob/master/lesson9/index2.html)
+ | [缩小放大特效](http://htmlpreview.github.io/?https://github.com/rocwong-cn/html5-learning/blob/master/lesson9/index3.html)
+ | [水平翻转特效](http://htmlpreview.github.io/?https://github.com/rocwong-cn/html5-learning/blob/master/lesson9/index4.html)
+ | [翻转加缩放](http://htmlpreview.github.io/?https://github.com/rocwong-cn/html5-learning/blob/master/lesson9/index5.html)
 
 * Loading 动效
 
-[简单loading](http://htmlpreview.github.io/?https://github.com/rocwangv/html5-learning/blob/master/lesson9/loading.html)
- | [带有拖尾效果的loading](http://htmlpreview.github.io/?https://github.com/rocwangv/html5-learning/blob/master/lesson9/loading2.html)
- | [横向 dot loading ](http://htmlpreview.github.io/?https://github.com/rocwangv/html5-learning/blob/master/lesson9/loading-dot.html)
- | [circle dot loading ](http://htmlpreview.github.io/?https://github.com/rocwangv/html5-learning/blob/master/lesson9/loading-round.html)
+[简单loading](http://htmlpreview.github.io/?https://github.com/rocwong-cn/html5-learning/blob/master/lesson9/loading.html)
+ | [带有拖尾效果的loading](http://htmlpreview.github.io/?https://github.com/rocwong-cn/html5-learning/blob/master/lesson9/loading2.html)
+ | [横向 dot loading ](http://htmlpreview.github.io/?https://github.com/rocwong-cn/html5-learning/blob/master/lesson9/loading-dot.html)
+ | [circle dot loading ](http://htmlpreview.github.io/?https://github.com/rocwong-cn/html5-learning/blob/master/lesson9/loading-round.html)
  
  * 翻书动效
 
- | [book paging](http://htmlpreview.github.io/?https://github.com/rocwangv/html5-learning/blob/master/lesson9/book.html)
+ | [book paging](http://htmlpreview.github.io/?https://github.com/rocwong-cn/html5-learning/blob/master/lesson9/book.html)
 
 ## Meta http-equiv属性
 
@@ -690,7 +690,7 @@ transform-origin: x-axis y-axis z-axis;
 
 
 # lesson 10 总结
-[DEMO预览地址](http://htmlpreview.github.io/?https://github.com/rocwangv/html5-learning/blob/master/lesson10/index.html)
+[DEMO预览地址](http://htmlpreview.github.io/?https://github.com/rocwong-cn/html5-learning/blob/master/lesson10/index.html)
 
 
 ## canvas
@@ -716,9 +716,9 @@ context.arc(100, 100, 5, 0, Math.PI * 2);
 
 ## GSAP
 
-[带缩略效果的飞机](http://htmlpreview.github.io/?https://github.com/rocwangv/html5-learning/blob/master/lesson10/gsap.html)
-[会旋转的飞机](http://htmlpreview.github.io/?https://github.com/rocwangv/html5-learning/blob/master/lesson10/example2.html)
-[矩形变圆形](http://htmlpreview.github.io/?https://github.com/rocwangv/html5-learning/blob/master/lesson10/example3.html)
-[盒子横向展开效果](http://htmlpreview.github.io/?https://github.com/rocwangv/html5-learning/blob/master/lesson10/example4.html)
+[带缩略效果的飞机](http://htmlpreview.github.io/?https://github.com/rocwong-cn/html5-learning/blob/master/lesson10/gsap.html)
+[会旋转的飞机](http://htmlpreview.github.io/?https://github.com/rocwong-cn/html5-learning/blob/master/lesson10/example2.html)
+[矩形变圆形](http://htmlpreview.github.io/?https://github.com/rocwong-cn/html5-learning/blob/master/lesson10/example3.html)
+[盒子横向展开效果](http://htmlpreview.github.io/?https://github.com/rocwong-cn/html5-learning/blob/master/lesson10/example4.html)
 
 更多介绍见Github:[GreenSock-JS](https://github.com/greensock/GreenSock-JS)

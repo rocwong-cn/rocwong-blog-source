@@ -6,7 +6,7 @@
 title: RocWong's Blog
 subtitle:
 description:
-keywords: 前端,移动端,技术分享,算法,总结,react-native,RocWong,rocwong,rocwangv,王鹏的博客,rocwong's blog,rocwang,flutter,linux
+keywords: 前端,移动端,技术分享,算法,总结,react-native,RocWong,rocwong,rocwong-cn,王鹏的博客,rocwong's blog,rocwang,flutter,linux
 author: RocWong
 language: zh-CN
 timezone:
@@ -41,13 +41,13 @@ social:
   - icon: fas fa-envelope
     url: mailto:me@rocwong.cn
   - icon: fab fa-github
-    url: https://github.com/rocwangv
+    url: https://github.com/rocwong-cn
   - icon: fas fa-music
     url: https://music.163.com/#/user/home?id=64405940
 
 widgets:
   - widget: author
-    avatar: https://cdn.jsdelivr.net/gh/rocwangv/assets/avatar/avatar.png
+    avatar: https://cdn.jsdelivr.net/gh/rocwong-cn/assets/avatar/avatar.png
     jinrishici: false
     social: true
   - widget: toc
@@ -134,5 +134,5 @@ baidusitemap:
 ## Docs: https://hexo.io/docs/deployment.html
 deploy:
   type: git
-  repo: https://github.com/rocwangv/rocwong-blog-static.git
+  repo: https://github.com/rocwong-cn/rocwong-blog-static.git
   branch: master
