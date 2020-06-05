@@ -4,5 +4,9 @@ tags:
   - 单例模式
 categories:
   - 设计模式
-date: 2020-06-05 23:15:12
+date: 2020-05-08 23:15:12
 ---
+
+asdjlaksdjaslkdjaslkdjaslkdjasldkajsdlkasjldk
+
+<!-- more -->
