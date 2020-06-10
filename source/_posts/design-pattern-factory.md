@@ -9,11 +9,11 @@ date: 2020-06-05 22:30:47
 
   ![banner](https://cdn.jsdelivr.net/gh/rocwong-cn/assets/factory-pattern/banner.png)
 
+<!-- more -->
+
 ## 什么是工厂模式？
 
 工厂模式（Factory Pattern）是最常用的设计模式之一。这种类型的设计模式属于创建型模式，它提供了一种创建对象的最佳方式。
-
-<!-- more -->
 
 在工厂模式中，我们在创建对象时不会对客户端暴露创建逻辑，并且是通过使用一个共同的接口来指向新创建的对象。
 
