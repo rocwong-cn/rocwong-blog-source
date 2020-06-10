@@ -8,6 +8,8 @@ date: 2019-11-27 11:12:24
 ---
 Original Repository: [ryanmcdermott/clean-code-javascript](https://github.com/ryanmcdermott/clean-code-javascript)
 
+<!-- more -->
+
 # JavaScript 风格指南
  
 ## 目录
@@ -21,8 +23,6 @@ Original Repository: [ryanmcdermott/clean-code-javascript](https://github.com/ry
   8. [错误处理](#错误处理)
   9. [格式化](#格式化)
   10. [注释](#注释)
-
-<!-- more -->
 
 ## 介绍
 [作者](https://github.com/ryanmcdermott)根据 Robert C. Martin [*《代码整洁之道》*](https://www.amazon.com/Clean-Code-Handbook-Software-Craftsmanship/dp/0132350882)总结了适用于 JavaScript 的软件工程原则[《Clean Code JavaScript》](https://github.com/ryanmcdermott/clean-code-javascript)。
