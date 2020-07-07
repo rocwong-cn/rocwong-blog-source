@@ -5,10 +5,6 @@ comments: false
 type: "about"
 ---
 
-> 心有定境，无畏因果。
-
----
-
 > Either you want be the shark of the ocean, or the fish of the ocean.
 > I want to be the shark !
 > Take over everything. Strength. No Weakness. Power and Muscle.
