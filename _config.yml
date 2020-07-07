@@ -23,12 +23,15 @@ menu:
   - name: 主页
     icon: fas fa-home
     url: /
-  - name: 项目
-    icon: fas fa-gavel
-    url: project/
   - name: 归档
     icon: fas fa-archive
     url: archives/
+  - name: 书单
+    icon: fas fa-book
+    url: books/
+  - name: 项目
+    icon: fas fa-gavel
+    url: project/
   - name: 朋友
     icon: fas fa-users
     url: friends/

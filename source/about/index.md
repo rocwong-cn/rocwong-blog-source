@@ -5,16 +5,17 @@ comments: false
 type: "about"
 ---
 
-> 性别男，爱好钱；
+> 心有定境，无畏因果。
 
-> 懒；
-> 轻微强迫症；
-> 得了一种不到零点不睡的病；
-> 不听音乐会死星人；
+---
 
-> ctrl+v 小能手；
-> .net --> java --> javascript --> architect（架构师）
-> 我可是要成为全栈王的男人；
+> Either you want be the shark of the ocean, or the fish of the ocean.
+> I want to be the shark !
+> Take over everything. Strength. No Weakness. Power and Muscle.
+> You have to have that mindset.
 
-
- （over）
+<video 
+  src="https://cdn.jsdelivr.net/gh/rocwong-cn/assets/books/v-shark.mp4"
+  controls="controls">
+sorry.
+</video>
