@@ -5,7 +5,7 @@ comments: false
 type: "about"
 ---
 
-> Either you want be the shark of the ocean, or the fish of the ocean.
+> Either you want be the shark of the ocean, or the fish of the ocean ?
 > I want to be the shark !
 > Take over everything. Strength. No Weakness. Power and Muscle.
 > You have to have that mindset.
