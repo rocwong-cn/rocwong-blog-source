@@ -29,6 +29,9 @@ menu:
   - name: 书单
     icon: fas fa-book
     url: books/
+  - name: 思维
+    icon: fas fa-bolt
+    url: mind/
   - name: 项目
     icon: fas fa-gavel
     url: project/
