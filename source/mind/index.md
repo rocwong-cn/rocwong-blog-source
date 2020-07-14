@@ -2,7 +2,7 @@
 title: 思维
 ---
 
-> 一图胜千言
+> 一图胜千言。
 
 <a href="https://cdn.jsdelivr.net/gh/rocwong-cn/assets/xmind/data-structure.png" target="_blank">
   <img 
