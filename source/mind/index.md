@@ -4,10 +4,16 @@ title: 思维
 
 > 一图胜千言
 
-<a href="https://cdn.jsdelivr.net/gh/rocwong-cn/assets/xmind/react%20hooks.png" target="_blank">
+<a href="https://cdn.jsdelivr.net/gh/rocwong-cn/assets/xmind/data-structure.png" target="_blank">
   <img 
-    src="https://cdn.jsdelivr.net/gh/rocwong-cn/assets/xmind/react%20hooks.png"
-    alt="什么是微前端">
+    src="https://cdn.jsdelivr.net/gh/rocwong-cn/assets/xmind/data-structure.png"
+    alt="数据结构">
+</a>
+
+<a href="https://cdn.jsdelivr.net/gh/rocwong-cn/assets/xmind/react-hooks.png" target="_blank">
+  <img 
+    src="https://cdn.jsdelivr.net/gh/rocwong-cn/assets/xmind/react-hooks.png"
+    alt="react hooks">
 </a>
 
 <a href="https://cdn.jsdelivr.net/gh/rocwong-cn/assets/xmind/optimization-of-vue3.png" target="_blank">
