@@ -5,45 +5,56 @@ title: 书单
 ## 最近在读
 
 <div style="display: flex; justify-content:flex-start; overflow:auto;">
-  <img style="margin: 10px" width=180 src="https://img9.doubanio.com/view/subject/l/public/s25648004.jpg">
-  <img style="margin: 10px" width=180 src="https://img3.doubanio.com/view/subject/l/public/s29425641.jpg">
-   <img style="margin: 10px" width=180 src="https://img1.doubanio.com/view/subject/l/public/s29651678.jpg">
-   <img style="margin: 10px" width=180 src="https://img3.doubanio.com/view/subject/l/public/s28033372.jpg">
-   <img style="margin: 10px" width=180 src="https://img3.doubanio.com/view/subject/l/public/s28969600.jpg">
-   <img style="margin: 10px" width=180 src="https://img1.doubanio.com/view/subject/l/public/s29656379.jpg">
-   <img style="margin: 10px" width=180 src="https://img3.doubanio.com/view/subject/l/public/s1988393.jpg">
-   <img style="margin: 10px" width=180 src="https://img9.doubanio.com/view/subject/s/public/s27276236.jpg">
-   
+<img style="margin: 10px" alt="" width=180 src="https://cdn.jsdelivr.net/gh/rocwong-cn/assets/books/suanfadaolun.jpg">
+<img style="margin: 10px" alt="" width=180 src="https://cdn.jsdelivr.net/gh/rocwong-cn/assets/books/wangzhanxingnengjiance.jpg">
+  <img style="margin: 10px" alt="" width=180 src="https://cdn.jsdelivr.net/gh/rocwong-cn/assets/books/s28033372.jpg">
+  <img style="margin: 10px" alt="" width=180 src="https://cdn.jsdelivr.net/gh/rocwong-cn/assets/books/youdontknowjsxia.jpg">
+  <img style="margin: 10px" alt="" width=180 src="https://cdn.jsdelivr.net/gh/rocwong-cn/assets/books/youdownknowjs2.jpg">
+  <img style="margin: 10px" alt="" width=180 src="https://cdn.jsdelivr.net/gh/rocwong-cn/assets/books/yehuoji.jpg">
+  
 </div>
 
 ## 想读的书
 
 <div style="display: flex; justify-content:flex-start; overflow:auto;">
-  <img style="margin: 10px" width=180 src="https://img9.doubanio.com/view/subject/l/public/s1671095.jpg">
-  <img style="margin: 10px" width=180 src="https://img9.doubanio.com/view/subject/l/public/s6248636.jpg">
-  <img style="margin: 10px" width=180 src="https://img3.doubanio.com/view/subject/l/public/s28266162.jpg">
+  <img style="margin: 10px" alt="" width=180 src="https://cdn.jsdelivr.net/gh/rocwong-cn/assets/books/jiayuwenben.jpg">
+  <img style="margin: 10px" alt="" width=180 src="https://cdn.jsdelivr.net/gh/rocwong-cn/assets/books/minjieruanjiankaifa.jpg">
+  <img style="margin: 10px" alt="" width=180 src="https://cdn.jsdelivr.net/gh/rocwong-cn/assets/books/xingnengjiance.jpg">
 </div>
 
 ## 读过的书
 
 <div style="display: flex; justify-content:flex-start; overflow:auto;">
-  <img style="margin: 10px" width=180 src="https://bkimg.cdn.bcebos.com/pic/8644ebf81a4c510fcbf8fa536e59252dd42aa5be?x-bce-process=image/resize,m_lfit,w_268,limit_1/format,f_jpg">
-  <img style="margin: 10px" width=180 src="https://img3.doubanio.com/view/subject/l/public/s33540333.jpg">
-  <img style="margin: 10px" width=180 src="https://bkimg.cdn.bcebos.com/pic/908fa0ec08fa513d85f3dd20376d55fbb3fbd9f7?x-bce-process=image/resize,m_lfit,w_268,limit_1/format,f_jpg">
-  <img style="margin: 10px" width=180 src="https://img3.doubanio.com/view/subject/l/public/s8958650.jpg">
-  <img style="margin: 10px" width=180 src="https://bkimg.cdn.bcebos.com/pic/d0c8a786c9177f3e79dd549d71cf3bc79e3d56b0?x-bce-process=image/resize,m_lfit,w_268,limit_1/format,f_jpg">
-   <img style="margin: 10px" width=180 src="https://img3.doubanio.com/view/subject/l/public/s33488890.jpg">
-   <img style="margin: 10px" width=180 src="https://img1.doubanio.com/view/subject/l/public/s33439747.jpg">
-   <img style="margin: 10px" width=180 src="https://cdn.jsdelivr.net/gh/rocwong-cn/assets/books/js-dp.png">
-   <img style="margin: 10px" width=180 src="https://img3.doubanio.com/view/subject/l/public/s1727290.jpg">
-   <img style="margin: 10px" width=180 src="https://img9.doubanio.com/view/subject/l/public/s3254244.jpg">
-    <img style="margin: 10px" width=180 src="https://img1.doubanio.com/view/subject/l/public/s24514468.jpg">
-   <img style="margin: 10px" width=180 src="https://img3.doubanio.com/view/subject/l/public/s27185093.jpg">
-   <img style="margin: 10px" width=180 src="https://bkimg.cdn.bcebos.com/pic/37d12f2eb9389b502300c01d8635e5dde6116e85?x-bce-process=image/resize,m_lfit,w_268,limit_1/format,f_jpg">
-   <img style="margin: 10px" width=180 src="https://img3.doubanio.com/view/subject/l/public/s29853590.jpg">
-   <img style="margin: 10px" width=180 src="https://img1.doubanio.com/view/subject/l/public/s33456219.jpg">
-   <img style="margin: 10px" width=180 src="https://bkimg.cdn.bcebos.com/pic/b21bb051f81986185e54450a4fed2e738bd4e629?x-bce-process=image/resize,m_lfit,w_268,limit_1/format,f_jpg">
-   <img style="margin: 10px" width=180 src="https://img9.doubanio.com/view/subject/s/public/s29703816.jpg">
+  <img style="margin: 10px" alt="" width=180 src="https://cdn.jsdelivr.net/gh/rocwong-cn/assets/books/chengxuyuanyingyu.jpg">
+  <img style="margin: 10px" alt="" width=180 src="https://cdn.jsdelivr.net/gh/rocwong-cn/assets/books/chonggou.jpg">
+  <img style="margin: 10px" alt="" width=180 src="https://cdn.jsdelivr.net/gh/rocwong-cn/assets/books/cleancode.jpg">
+  <img style="margin: 10px" alt="" width=180 src="https://cdn.jsdelivr.net/gh/rocwong-cn/assets/books/baiyexing.jpg">
+  <img style="margin: 10px" alt="" width=180 src="https://cdn.jsdelivr.net/gh/rocwong-cn/assets/books/cleancoder.jpg">
+  <img style="margin: 10px" alt="" width=180 src="https://cdn.jsdelivr.net/gh/rocwong-cn/assets/books/cssshijie.jpg">
+  <img style="margin: 10px" alt="" width=180 src="https://cdn.jsdelivr.net/gh/rocwong-cn/assets/books/fanggebijiben.jpg">
+  <img style="margin: 10px" alt="" width=180 src="https://cdn.jsdelivr.net/gh/rocwong-cn/assets/books/guaimomotou.jpg">
+  <img style="margin: 10px" alt="" width=180 src="https://cdn.jsdelivr.net/gh/rocwong-cn/assets/books/hongbaoshu.jpg">
+  
+  <img style="margin: 10px" alt="" width=180 src="https://cdn.jsdelivr.net/gh/rocwong-cn/assets/books/jinjiexinfa.jpg">
+  <img style="margin: 10px" alt="" width=180 src="https://cdn.jsdelivr.net/gh/rocwong-cn/assets/books/js-dp.png">
+  <img style="margin: 10px" alt="" width=180 src="https://cdn.jsdelivr.net/gh/rocwong-cn/assets/books/maikenxi.jpg">
+  <img style="margin: 10px" alt="" width=180 src="https://cdn.jsdelivr.net/gh/rocwong-cn/assets/books/mimi.jpg">
+  
+  <img style="margin: 10px" alt="" width=180 src="https://cdn.jsdelivr.net/gh/rocwong-cn/assets/books/nodejsshizhan.jpg">
+  <img style="margin: 10px" alt="" width=180 src="https://cdn.jsdelivr.net/gh/rocwong-cn/assets/books/pinang.jpg">
+  
+  <img style="margin: 10px" alt="" width=180 src="https://cdn.jsdelivr.net/gh/rocwong-cn/assets/books/sanmenke.jpg">
+  <img style="margin: 10px" alt="" width=180 src="https://cdn.jsdelivr.net/gh/rocwong-cn/assets/books/shangdibuzhishaizi.jpg">
+  <img style="margin: 10px" alt="" width=180 src="https://cdn.jsdelivr.net/gh/rocwong-cn/assets/books/shenruqianchunodejs.jpg">
+  <img style="margin: 10px" alt="" width=180 src="https://cdn.jsdelivr.net/gh/rocwong-cn/assets/books/weiqianduan.jpg">
+  <img style="margin: 10px" alt="" width=180 src="https://cdn.jsdelivr.net/gh/rocwong-cn/assets/books/wuhezhizhong.jpg">
+  <img style="margin: 10px" alt="" width=180 src="https://cdn.jsdelivr.net/gh/rocwong-cn/assets/books/xdexianren.jpg">
+  
+  
+  <img style="margin: 10px" alt="" width=180 src="https://cdn.jsdelivr.net/gh/rocwong-cn/assets/books/yitiaogou1.jpg">
+  <img style="margin: 10px" alt="" width=180 src="https://cdn.jsdelivr.net/gh/rocwong-cn/assets/books/yitiaogou2.jpg">
+  
+  <img style="margin: 10px" alt="" width=180 src="https://cdn.jsdelivr.net/gh/rocwong-cn/assets/books/zhuifengzhengderen.jpg">
 </div>
 
 ---
