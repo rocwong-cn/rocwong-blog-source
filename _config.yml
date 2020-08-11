@@ -142,3 +142,10 @@ deploy:
   type: git
   repo: https://github.com/rocwong-cn/rocwong-blog-static.git
   branch: master
+
+codepen:
+  userId: "rocwong-cn"
+  theme: "light"
+  default_tabs: "js,result"
+  height: '500px'
+  width: '800px'

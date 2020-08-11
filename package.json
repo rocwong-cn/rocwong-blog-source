@@ -10,6 +10,7 @@
   },
   "dependencies": {
     "hexo": "^3.8.0",
+    "hexo-codepen-v2": "^0.2.3",
     "hexo-deployer-git": "^1.0.0",
     "hexo-generator-archive": "^0.1.5",
     "hexo-generator-baidu-sitemap": "^0.1.6",
