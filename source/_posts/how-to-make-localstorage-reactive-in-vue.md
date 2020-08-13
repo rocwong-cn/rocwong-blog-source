@@ -7,6 +7,10 @@ categories:
 date: 2020-08-13 11:35:38
 ---
 
+> 作者：[Hunor Márton Borbély](https://css-tricks.com/author/hunorborbely/)
+> 发布时间：Jun 24, 2020
+> 原文地址：[How to Make localStorage Reactive in Vue](https://css-tricks.com/how-to-make-localstorage-reactive-in-vue/)
+
 响应式是Vue的最伟大的特性之一，如果你不知道它在幕后做了什么，那么它对于你来说会显得更加神秘。就像为什么它只适用于对象和数组，而不适用于其他东西呢，比如我们今天所说的`localstorage`。
 
  <!-- more -->
