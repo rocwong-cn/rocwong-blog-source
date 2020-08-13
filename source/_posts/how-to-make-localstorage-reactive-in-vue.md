@@ -7,7 +7,7 @@ categories:
 date: 2020-08-13 11:35:38
 ---
 
-> 作者：[Hunor Márton Borbély](https://css-tricks.com/author/hunorborbely/)
+> 原文作者：[Hunor Márton Borbély](https://css-tricks.com/author/hunorborbely/)
 > 发布时间：Jun 24, 2020
 > 原文地址：[How to Make localStorage Reactive in Vue](https://css-tricks.com/how-to-make-localstorage-reactive-in-vue/)
 
