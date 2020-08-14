@@ -1,9 +1,9 @@
 {
-  "name": "hexo-site",
+  "name": "rocwong-blog",
   "version": "0.0.0",
   "private": true,
   "scripts": {
-    "pub": "hexo g & hexo d & git add . & git cam 'feat: new post' & git push"
+    "deploy": "./deploy.sh"
   },
   "hexo": {
     "version": "3.8.0"

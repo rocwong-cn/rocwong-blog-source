@@ -5,6 +5,7 @@ tags:
 - xxx
 categories:
 - xxx
+keywords: [x,x]
 ---
 
  <!-- more -->
