@@ -1,6 +1,6 @@
 ---
 layout: links     # 必须
-title: 朋友   # 可选，这是友链页的标题
+title: 友链   # 可选，这是友链页的标题
 links:
   - group: 技术大佬
     icon: fas fa-user-tie
@@ -19,4 +19,15 @@ links:
       textColor: '#000'  # 卡片文字颜色
       tags:
       - 前端架构师 技术leader
+
+  - group: 技术网站
+    icon: fas fa-blog
+    items:
+    - name: 卡拉搜索
+      avatar: https://kalasearch.cn/favicon-32x32.png
+      url: https://kalasearch.cn/
+      backgroundColor: '#CCDAFF' # 卡片背景颜色
+      textColor: '#fff'  # 卡片文字颜色
+      tags:
+      - 站内搜索 引擎服务
 ---

@@ -35,8 +35,8 @@ menu:
   - name: 项目
     icon: fas fa-gavel
     url: project/
-  - name: 朋友
-    icon: fas fa-users
+  - name: 友链
+    icon: fas fa-link
     url: friends/
   - name: 关于
     icon: fas fa-user
