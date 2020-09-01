@@ -184,7 +184,7 @@ export function defineReactive (obj, key, ...) {
 当Vue使该data选项observable时，它还会为每个[计算属性](https://github.com/vuejs/vue/blob/0baa129d4cad44cf1847b0eaf07e95d4c71ab494/src/core/instance/state.js#L187)函数以及所有[watch函数](https://github.com/vuejs/vue/blob/0baa129d4cad44cf1847b0eaf07e95d4c71ab494/src/core/instance/state.js#L356)（不应与Watcher类混淆）以及每个[组件实例](https://github.com/vuejs/vue/blob/0baa129d4cad44cf1847b0eaf07e95d4c71ab494/src/core/instance/lifecycle.js#L197)的render函数创建监视者。观察者就像这些功能的伴侣。他们主要做两件事：
 
 - **它们在创建时会评估函数**。这将触发依赖项的收集。
-- **当通知他们所依赖的值已更改时，他们将重新运行其功能。**这最终将重新计算一个计算属性或重新渲染整个组件。
+- **当通知他们所依赖的值已更改时，他们将重新运行其功能。** 这最终将重新计算一个计算属性或重新渲染整个组件。
 
 ![](https://cdn.jsdelivr.net/gh/rocwong-cn/assets/vue/vue-reactive.png)
 
