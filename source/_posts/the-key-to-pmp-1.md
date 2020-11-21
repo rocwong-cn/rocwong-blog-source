@@ -170,3 +170,7 @@ DIPP的定义是：DIPP = EMV/ETC
 ![](https://cdn.jsdelivr.net/gh/rocwong-cn/assets/imags/xiangmujinglijubeidzhishi.png)
 
 总而言之，根据 PMI 的定义，项目经理就是一个 *拥有偶像包袱的圣人一枚* 。
+
+## 结语
+
+以上就是我在学习 《PMBOK》 第六版之第一章中的一些重点内容摘录，后续的内容会持续更新。
