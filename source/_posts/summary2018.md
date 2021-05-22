@@ -7,6 +7,10 @@ categories:
 date: 2018-12-29 15:34:59
 ---
 
+<div style="text-align:center; color: #ccc; height:200px;line-height:200px">啊哦，该文章暂时不可见哦~</div>
+
+  <div style="display:none">
+
 > 2018年，耶！ 工作爱情双丰收 ~~ 撒花 ~~
 
 <!-- more -->
@@ -52,3 +56,5 @@ date: 2018-12-29 15:34:59
 * 多关注项目架构、设计模式及前端工程化相关知识并多总结、多实践。
 * 将极光单词行的英语坚持学习到底、极客时间上买的专栏看完。
 * 有时间的话接点私活 ~~ 嘿嘿 ~~
+
+</div>
