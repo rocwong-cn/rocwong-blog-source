@@ -180,4 +180,4 @@ app.mount('#app');
 
 以上目录的完整代码可以访问 [try-vite-plugins](https://github.com/rocwong-cn/try-vite-plugins) 来获取。
 
-原文链接：[]()
+- 原文链接：[查看原文](https://rocwong.cn/vite-plugin-pages-layouts.html)
