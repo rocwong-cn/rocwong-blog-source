@@ -13,7 +13,7 @@ timezone:
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
-url: http://rocwong.online/
+url: http://www.rocwong.cn/
 root: /
 permalink: :title.html
 permalink_defaults:
@@ -42,7 +42,7 @@ menu:
 # 页脚社交信息
 social:
   - icon: fas fa-envelope
-    url: mailto:me@rocwong.online
+    url: mailto:me@rocwong.cn
   - icon: fab fa-github
     url: https://github.com/rocwong-cn
   - icon: fas fa-music
