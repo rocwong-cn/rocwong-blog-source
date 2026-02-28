@@ -6,3 +6,12 @@ node_modules/
 public/
 .deploy*/
 .history
+
+# Environment variables (sensitive)
+.env
+.env.local
+.env.*.local
+
+# Config with secrets
+_config.local.yml
+_config.*.local.yml

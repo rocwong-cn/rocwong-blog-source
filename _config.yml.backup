@@ -57,16 +57,17 @@ widgets:
   - widget: tagcloud
   - widget: category
 
-# ============================================
-# Valine Comment System Configuration
-# 敏感配置已移至 _config.local.yml（不会提交到 Git）
-# 如需修改，请编辑 _config.local.yml 文件
-#
-# 🔒 安全提示：
-# 1. 不要在 _config.yml 中存储 app_id 和 app_key
-# 2. 在 LeanCloud 后台设置安全域名白名单
-# 3. _config.local.yml 已添加到 .gitignore
-# ============================================
+valine:
+  enable: true # 如果你想用Valine评论系统，请设置enable为true
+  app_id: 30nzlf075w2SKfJmluXW7TGW-gzGzoHsz # 必填
+  app_key: 7MTtGoEYzq1gPxmFrGIW19UI # 必填
+  guest_info: nick #valine comment header info
+  placeholder: 快来评论吧~ # valine comment input placeholder(like: Please leave your footprints )
+  avatar: monsterid # gravatar style https://valine.js.org/avatar
+  pageSize: 10 # comment list page size
+  verify: false # valine verify code (true/false)
+  notify: false # valine mail notify (true/false)
+  lang: zh-cn
 
 # Directory
 source_dir: source

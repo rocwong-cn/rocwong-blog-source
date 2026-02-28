@@ -1,0 +1,84 @@
+# Hexo Configuration Example
+# 复制此文件为 _config.yml 并填入你的配置
+# 敏感信息请使用环境变量或 _config.local.yml
+
+# Site
+title: RocWong's Blog
+subtitle:
+description:
+keywords: 前端，移动端，技术分享，算法，总结，react-native,RocWong,rocwong,rocwong-cn,王鹏的博客，rocwong's blog,rocwang,flutter,linux
+author: RocWong
+language: zh-CN
+timezone:
+
+# URL
+url: http://www.rocwong.cn/
+root: /
+permalink: :title.html
+permalink_defaults:
+
+# Directory
+source_dir: source
+public_dir: public
+tag_dir: tags
+archive_dir: archives
+category_dir: categories
+code_dir: downloads/code
+i18n_dir: :lang
+skip_render:
+
+# Writing
+new_post_name: :title.md
+default_layout: post
+titlecase: false
+external_link: true
+filename_case: 0
+render_drafts: false
+post_asset_folder: false
+relative_link: false
+future: true
+highlight:
+  enable: true
+  line_number: true
+  auto_detect: false
+  tab_replace:
+
+# Extensions
+theme: material-x
+theme_cdn: true
+
+# Deployment
+## Docs: https://hexo.io/docs/deployment.html
+deploy:
+  type: git
+  repo: https://github.com/rocwong-cn/rocwong-cn.github.io.git
+  branch: master
+
+# CodePen Configuration
+codepen:
+  userId: 'rocwong-cn'
+  theme: 'light'
+  default_tabs: 'js,result'
+  height: '500px'
+  width: '800px'
+
+# ============================================
+# 敏感配置项（请使用 _config.local.yml 或环境变量）
+# ============================================
+
+# Valine Comment System
+# 请在 _config.local.yml 中配置以下内容：
+#
+# valine:
+#   enable: true
+#   app_id: YOUR_LEANCLOUD_APP_ID
+#   app_key: YOUR_LEANCLOUD_APP_KEY
+#   guest_info: nick
+#   placeholder: 快来评论吧~
+#   avatar: monsterid
+#   pageSize: 10
+#   verify: false
+#   notify: false
+#   lang: zh-cn
+#
+# ⚠️ 不要将真实的 app_id 和 app_key 提交到此文件！

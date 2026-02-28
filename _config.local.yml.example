@@ -1,0 +1,15 @@
+# Valine Configuration Template
+# 复制此文件为 _config.local.yml 并填入你的 LeanCloud 凭证
+# ⚠️ 此文件已添加到 .gitignore，不会提交到 Git 仓库
+
+valine:
+  enable: true
+  app_id: YOUR_LEANCLOUD_APP_ID
+  app_key: YOUR_LEANCLOUD_APP_KEY
+  guest_info: nick
+  placeholder: 快来评论吧~
+  avatar: monsterid
+  pageSize: 10
+  verify: false
+  notify: false
+  lang: zh-cn
